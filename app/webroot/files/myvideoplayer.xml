@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+
+<coffeecupvideoplayer version="5.0">
+
+  <videobox
+   x="0"
+   y="0"
+   w="400"
+   h="300"
+   playonstartup="t"
+   loop="f"
+   shuffle="f"
+   dir="myvideoplayer_files/"
+   showplayonstartup="f"
+disableclicktoactiveprompt="false"
+   skinname="Minimalist Skin"
+   skinsize="l"
+   bkdobk="f"
+   bkdogradient="f"
+   bkfillclr="0x000000"
+   bkfillalpha="100"
+   bkgradclr="0xFFFFFF"
+   bkgradalpha="100"
+   bkgradangle="70"
+   bkdoimg="t"
+   bkimg="myvideoplayer_files/body.jpg"
+   bkdobdr="f"
+   bkbdrsolid="t"
+   bkbdrcolor="0x808080"
+   bkdomask="t"
+  >
+
+  <rewindbutton
+   x="0"
+   y="280"
+   w="20"
+   h="20"
+   toggle="f"
+   btnupimg="myvideoplayer_files/rr.jpg"
+   action="rr"
+   visible="t"
+  ></rewindbutton>
+
+  <ffbutton
+   x="40"
+   y="280"
+   w="20"
+   h="20"
+   toggle="f"
+   btnupimg="myvideoplayer_files/ff.jpg"
+   action="ff"
+   visible="t"
+  ></ffbutton>
+
+  <playbutton
+   x="20"
+   y="280"
+   w="20"
+   h="20"
+   toggle="t"
+   btnupimg="myvideoplayer_files/play.jpg"
+   btndownimg="myvideoplayer_files/pause.jpg"
+   action="playpause"
+   visible="t"
+  ></playbutton>
+
+  <shufbutton
+   x="111"
+   y="68"
+   w="35"
+   h="14"
+   toggle="t"
+   action="shuf"
+   visible="f"
+  ></shufbutton>
+
+  <loopbutton
+   x="100"
+   y="0"
+   w="20"
+   h="20"
+   toggle="t"
+   action="loop"
+   visible="f"
+  ></loopbutton>
+
+  <volume
+   x="65"
+   y="285"
+   w="110"
+   h="10"
+   visible="t"
+  ></volume>
+
+  <progress
+   x="-5"
+   y="270"
+   w="400"
+   visible="t"
+  ></progress>
+
+  <tree
+   x="6"
+   y="118"
+   w="264"
+   h="62"
+   visible="f"
+  >
+  <node label="">
+    <node name="" file="myvideoplayer_files/NES.flv" artist="NES" label="NES"/>
+  </node>
+
+  </tree>
+
+  <label
+   x="245"
+   y="300"
+   w="55"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0x333333"
+   fntbold="f"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></label>
+
+  <scrolllabel
+   x="192"
+   y="282"
+   w="146"
+   h="15"
+   bkdobk="f"
+   bkdogradient="f"
+   bkdoimg="f"
+   fntalpha="100"
+   fntsize="10"
+   fntclr="0xFFFFFF"
+   fntbold="t"
+   fntitalic="f"
+   fnt="Arial"
+   visible="t"
+  ></scrolllabel>
+
+  <treebutton
+   x="340"
+   y="280"
+   w="60"
+   h="20"
+   toggle="t"
+   btnupimg="myvideoplayer_files/playlist.jpg"
+   btndownimg="myvideoplayer_files/playlist.jpg"
+   action="tree"
+   visible="t"
+  ></treebutton>
+
+  <video
+   x="0"
+   y="0"
+   h="280"
+   w="400"
+   visible="t"
+  ></video>
+
+  </videobox>
+
+</coffeecupvideoplayer>
